@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "alt": "imagem-1",
+    "src": "./fotos/image-10.png"
+  },
+  {
+    "id": 2,
+    "alt": "imagem-2",
+    "src": "./fotos/image-3.png"
+  },
+  {
+    "id": 3,
+    "alt": "imagem-3",
+    "src": "./fotos/image-4.png"
+  },
+  {
+    "id": 4,
+    "alt": "imagem-4",
+    "src": "./fotos/image-6.png"
+  },
+  {
+    "id": 5,
+    "alt": "imagem-5",
+    "src": "./fotos/image-7.png"
+  },
+  {
+    "id": 6,
+    "alt": "imagem-6",
+    "src": "./fotos/image-8.png"
+  },
+  {
+    "id": 7,
+    "alt": "imagem-7",
+    "src": "./fotos/image-9.png"
+  }
+]

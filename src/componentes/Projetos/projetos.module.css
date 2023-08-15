@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&display=swap');
+
+.container {
+    display: flex;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    left: 42%;
+    top: 56%;
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 24px;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    min-height: 200px;
+    min-width: 300px;
+    padding: 5px;
+}
+
+.buttonproj {
+    border-radius: 31px;
+    background: linear-gradient(180deg, #273F63 0%, rgba(43, 99, 39, 0.00) 100%);
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    top: 275px;
+    left: 145px;
+    border-bottom: 10px;
+    border-right: 10px;
+    color: #FFF;
+    transition: background-color 0.3s ease;
+}
+
+.text {
+    color: #FFF;
+    text-decoration: none;
+}
+
+buttonproj:hover {
+    background-color: rgb(51, 5, 255);
+}
+
+.icons {
+    position: absolute;
+    right: 20px;
+    top: 12%;
+    display: flex;
+}
+
+.git {
+    top: 35px;
+    right: 20px;
+    position: relative;
+}
+
+.linkedin {
+    top: 35px;
+    position: relative;
+}
