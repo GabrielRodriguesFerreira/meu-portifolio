@@ -113,7 +113,8 @@ button:hover {
 
     .imagem_grid {
         display: block;
-        left: 22px;
+        left: 10px;
+        top: 40%;
     }
 
     .imagem_item {
