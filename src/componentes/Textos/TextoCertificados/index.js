@@ -1,5 +1,5 @@
 import React from 'react'
-import './minhaFoto.css'
+import './minhaFoto.module.css'
 import minhaFoto from '../../../assets/Minha foto/minha_foto-1.png'
 
 export default function MinhaFoto() {

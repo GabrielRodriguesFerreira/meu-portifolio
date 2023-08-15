@@ -1,10 +1,10 @@
 import React from 'react'
-import './Background.css'
+import style from './BackgroundInicial.module.css'
 
 export default function BackgroundPaginaInicial() {
     return (
         <> 
-            <div className="backgroundIni"></div> 
+            <div className={style.backgroundIni}></div> 
         </>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './Background.css'
+import style from './BackgroundProjeto.module.css'
 
 export default function BackgroundPaginaProjetos() {
     return (
         <> 
-            <div className="backgroundProj"></div> 
+            <div className={style.backgroundProj}></div> 
         </>
     )
 }

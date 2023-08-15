@@ -1,10 +1,10 @@
 import React from 'react'
-import './Background.css'
+import style from './Background.module.css'
 
-export default function Background() {
+export default function BackgroundCert() {
     return (
         <> 
-            <div className="background"></div> 
+            <div className={style.backgroundCert}></div> 
         </>
     )
 }

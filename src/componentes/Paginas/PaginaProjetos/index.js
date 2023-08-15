@@ -3,13 +3,13 @@ import './paginaProjetos.css'
 import Linhas from '../../Svgs/Linhas'
 import TextoProjetos from '../../Textos/TextoProjetos'
 import BackgroundPaginaProjetos from '../../Backgrounds/BackgroundPaginaProjetos'
-import CabecalhoProjetos from '../../Cabecalhos/CabecalhoProjetos'
 import ProjetosCarrossel from '../../Projetos'
+import CabecalhoProjeto from 'componentes/Cabecalhos/CabecalhoProjetos'
 
 export default function Projetos() {
   return (
     <>
-      <CabecalhoProjetos/>
+      <CabecalhoProjeto/>
       <Linhas />
       <TextoProjetos /> 
       <ProjetosCarrossel/>

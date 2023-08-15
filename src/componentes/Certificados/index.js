@@ -37,7 +37,7 @@ export default function Certificados() {
     <div className={style.container}>
       <h1 className={style.texto}>Certificados</h1>
       <div className={style.icons}>
-        <a href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
+        <a className={style.alura} href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
           <img src={imagem8} />
         </a>
         <a className={style.git} href='https://github.com/GabrielRodriguesFerreira' target='_blank'>

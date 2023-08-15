@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Cabecalho.module.css'
 
-export default function Cabecalho() {
+export default function CabecalhoProjeto() {
   return (
-    <header className='header'>
+    <header className={styles.header}>
       <button className={styles.button}>
         <a className={styles.text} href='/'>
           Ínicio

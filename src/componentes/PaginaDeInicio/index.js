@@ -6,13 +6,12 @@ import image3 from './FotosPaginaInicio/image-3.png'
 import imagem8 from '../Certificados/image-8.png'
 import imagem9 from '../Certificados/image-9.png'
 import imagem10 from '../Certificados/image-10.png'
-import { NavLink } from 'react-router-dom';
 
 export default function PaginaDeInicio() {
     return (
         <>
             <div className={style.icons}>
-                <a href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
+                <a className={style.alura} href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
                     <img src={imagem8} />
                 </a>
                 <a className={style.git} href='https://github.com/GabrielRodriguesFerreira' target='_blank'>
@@ -37,7 +36,7 @@ export default function PaginaDeInicio() {
                 <div className={style.imagem_item}>
                     <img src={image2} className={style.img} />
                     <div className={style.image_content}>
-                        <button className={style.button}>
+                        <button className={style.buttonPaginaInicio}>
                             <a className={style.text} href='/Certificados'>
                                 Certificados
                             </a>
@@ -47,7 +46,7 @@ export default function PaginaDeInicio() {
                 <div className={style.imagem_item}>
                     <img src={image3} className={style.img} />
                     <div className={style.image_content}>
-                        <button className={style.button}>
+                        <button className={style.buttonPaginaInicio}>
                             <a className={style.text} href='/SobreMim'>
                                 Sobre Mim
                             </a>

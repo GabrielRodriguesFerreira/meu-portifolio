@@ -8,8 +8,8 @@ import './PaginaInicial.module.css'
 export default function PaginaInicial() {
   return (
     < >
-      <PaginaDeInicio />
       <Linhas />
+      <PaginaDeInicio />
       <TextoPaginaInicial />
       <BackgroundPaginaInicial />
     </>

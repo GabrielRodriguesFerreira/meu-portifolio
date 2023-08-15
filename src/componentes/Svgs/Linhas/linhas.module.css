@@ -1,0 +1,34 @@
+.linha {
+    position: absolute;
+    background-size: cover;
+    color: #FFF;
+    width: 100%;
+    height: 1%
+}
+
+.linhasvg {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    background-size: cover;
+}
+
+.linhasvg2 {
+    position: relative;
+    top: 280px;
+    width: 100%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .linhasvg {
+        width: 100%;
+        top: 117px;
+        width: 100%;
+    }
+
+    .linhasvg2 {
+        width: 100%;
+        top: 150px;
+    }
+}
