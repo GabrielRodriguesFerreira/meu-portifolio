@@ -2,17 +2,8 @@ import React, {useEffect, useRef} from 'react'
 import style from './minhaFoto.module.css'
 import { motion } from 'framer-motion'
 import minhaFoto from '../../../assets/Minha foto/minha_foto-1.png'
-import ScrollReveal from 'scrollreveal'
 
 export default function MinhaFoto() {
-
-    const elementoRef = useRef(null);
-
-    useEffect(() => {
-        const revelar = ScrollReveal()
-        revelar.reveal(elementoRef.current,{})
-    }, [])
-
     const list = {
         hidden: { opacity: 0 },
         show: {
