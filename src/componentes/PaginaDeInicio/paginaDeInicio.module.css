@@ -127,4 +127,13 @@ button:hover {
         position: relative;
         background-size: cover;
     }
+
+    .button__proj {
+        position: relative;
+        background-size: cover;
+    }
+
+    .img {
+        gap: 10px;
+    }
 }
