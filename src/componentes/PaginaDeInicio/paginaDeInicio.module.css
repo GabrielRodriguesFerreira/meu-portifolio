@@ -113,12 +113,18 @@ button:hover {
 
     .imagem_grid {
         display: block;
-        left: 10px;
+        left: 4%;
         top: 40%;
     }
 
     .imagem_item {
         left: 10%;
         position: relative;
+        padding: 10px;
+    }
+
+    .buttonPaginaInicio {
+        position: relative;
+        background-size: cover;
     }
 }
