@@ -1,21 +1,42 @@
 import React from 'react'
 import style from './projetos.module.css'
+import { animate, inView, motion, transform } from 'framer-motion'
 import imagem1 from './image-1.png'
 import imagem2 from './image-2.png'
-import imagem9 from './image-3.png'
+import imagem3 from './image-3.png'
 import imagem4 from './image-4.png'
 import imagem5 from './image-5.png'
 import imagem6 from './image-6.png'
+import imagem7 from './image-7.png'
 import imagem11 from './image-11.png'
 
-import imagem7 from './image-7.png'
-import imagem10 from './image-10.png'
 import imagem8 from './image-8.png'
+import imagem9 from './image-9.png'
+import imagem10 from './image-10.png'
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 export default function ProjetosCarrossel() {
+
+  const list = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        delayChildren: 1,
+        staggerDirection: -1,
+        duration: 2
+      }
+    }
+  }
+
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 }
+  }
+
   const imagens = [
     { id: '1', image: imagem6, link: 'https://github.com/GabrielRodriguesFerreira/Chat-Bot-IR' },
     { id: '2', image: imagem1, link: 'https://github.com/GabrielRodriguesFerreira/Alura-Site' },
@@ -24,7 +45,7 @@ export default function ProjetosCarrossel() {
     { id: '5', image: imagem11, link: 'https://github.com/GabrielRodriguesFerreira/Projetos-Trabalho-Java' },
     { id: '6', image: imagem2, link: 'https://github.com/GabrielRodriguesFerreira/Automatizador-de-Testes' },
     { id: '7', image: imagem4, link: 'https://github.com/GabrielRodriguesFerreira/React' },
-      
+
   ]
 
   const handleButtonClick = (link) => {
@@ -32,18 +53,21 @@ export default function ProjetosCarrossel() {
   };
 
   return (
-    <div className={style.container}>
+    <>
+    <motion.div variants={list} initial="hidden" animate="show">
       <h1 className={style.texto}>Projetos</h1>
-      <div className={style.icons}>
-        <a className={style.alura} href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
-          <img src={imagem10} />
-        </a>
-        <a className={style.git} href='https://github.com/GabrielRodriguesFerreira' target='_blank'>
-          <img src={imagem8} />
-        </a>
-        <a className={style.linkedin} href='https://www.linkedin.com/in/gabriel-r-88b786204' target='_blank'>
-          <img src={imagem7} />
-        </a>
+      <div className={`container ${style.container}`}>
+        <div className={style.icons}>
+          <a className={style.alura} href='https://cursos.alura.com.br/user/gabriel-ferreira17' target='_blank'>
+            <img src={imagem10} />
+          </a>
+          <a className={style.git} href='https://github.com/GabrielRodriguesFerreira' target='_blank'>
+            <img src={imagem8} />
+          </a>
+          <a className={style.linkedin} href='https://www.linkedin.com/in/gabriel-r-88b786204' target='_blank'>
+            <img src={imagem7} />
+          </a>
+        </div>
       </div>
 
       <Swiper
@@ -75,6 +99,7 @@ export default function ProjetosCarrossel() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+      </motion.div >
+    </>
   )
 }

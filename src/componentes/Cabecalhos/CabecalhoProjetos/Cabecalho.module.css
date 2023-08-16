@@ -86,3 +86,36 @@
 .button__sobremim:hover {
     background-color: rgb(5, 77, 170);
 }
+
+
+@media screen and (max-width: 768px) {
+    .button {
+        border-radius: 31px;
+        background: linear-gradient(180deg, #273F63 0%, rgba(20, 17, 202, 0) 100%);
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        font-size: 24px;
+        padding: 5px 20px 5px 20px;
+        position: absolute;
+        right: 525px;
+        top: 25px;
+        border-bottom: 10px;
+        border-right: 10px;
+        color: #FFF;
+        transition: background-color 0.3s ease;
+    }
+
+    .button__sobremim {
+        border-radius: 31px;
+        background: linear-gradient(180deg, #273F63 0%, rgba(20, 17, 202, 0) 100%);
+        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+        font-size: 24px;
+        padding: 5px 15px 5px 15px;
+        position: absolute;
+        right: 40px;
+        top: 25px;
+        border-bottom: 10px;
+        border-right: 10px;
+        color: #FFF;
+        transition: background-color 0.3s ease;
+    }
+}

@@ -6,7 +6,7 @@ export default function Cabecalho() {
     <header className='header'>
       <button className={styles.button}>
         <a className={styles.text} href='/'>
-          Ínicio
+          Início
         </a>
       </button>
       <button className={styles.button__projetos}>
