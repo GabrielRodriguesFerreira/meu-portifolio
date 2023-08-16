@@ -4,12 +4,13 @@ import TextoPaginaInicial from '../../Textos/TextoPaginaInicial'
 import BackgroundPaginaInicial from '../../Backgrounds/BackgroundPaginaInicial'
 import PaginaDeInicio from '../../PaginaDeInicio'
 import './PaginaInicial.module.css'
+import PaginaScrollInicial from 'componentes/PaginaScroll'
 
 export default function PaginaInicial() {
   return (
     < >
       <Linhas />
-      <PaginaDeInicio />
+      <PaginaScrollInicial />
       <TextoPaginaInicial />
       <BackgroundPaginaInicial />
     </>

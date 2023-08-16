@@ -86,16 +86,13 @@ button:hover {
     right: 35px;
 }
 
-.container {
-    
-}
-
 @media screen and (max-width: 768px) {
     .icons {
         position: absolute;
         right: 20px;
         top: 2%;
         display: flex;
+        opacity: 0;
     }
 
     .git {
@@ -139,5 +136,9 @@ button:hover {
 
     .img {
         gap: 10px;
+    }
+
+    .container {
+        height: 100%;
     }
 }

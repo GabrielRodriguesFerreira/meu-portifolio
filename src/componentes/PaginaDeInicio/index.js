@@ -1,8 +1,8 @@
-import React, { useEffect, useRef} from 'react'
+import React, { useEffect, useRef, useState } from 'react';
 import style from './paginaDeInicio.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { motion, transform } from 'framer-motion'
-import ScrollReveal from 'scrollreveal'
+import ScrollReveal from 'scrollreveal';
 
 import image1 from './FotosPaginaInicio/image-1.png'
 import image2 from './FotosPaginaInicio/image-2.png'
@@ -13,13 +13,18 @@ import imagem10 from '../Certificados/image-10.png'
 
 export default function PaginaDeInicio() {
 
-
-    const elementoRef = useRef(null);
+    const animateRef = useRef(null);
 
     useEffect(() => {
-        const revelar = ScrollReveal()
-        revelar.reveal(elementoRef.current, {})
-    }, [])
+        ScrollReveal().reveal(animateRef.current, {
+            duration: 1000,
+            distance: '50px',
+            origin: 'bottom',
+            delay: 100,
+            opacity: 0,
+            easing: 'ease-in-out',
+        });
+    }, []);
 
     const list = {
         hidden: { opacity: 0 },
