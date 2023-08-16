@@ -26,7 +26,7 @@
     .backgroundIni {
         background-image:
             linear-gradient(135deg, rgba(0, 58, 10, 0.7) 10%, rgba(0, 0, 0, 0.90) 100%, rgba(0, 0, 0, 0.1)),
-            url('../../../assets/background/image-1.png');
+            url('../../../assets/background/image-5.png');
         width: 100%;
         height: 50%;
         background-size: cover;

@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './paginaDeInicio.module.css'
-import { Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import image1 from './FotosPaginaInicio/image-1.png'
@@ -27,38 +26,38 @@ export default function PaginaDeInicio() {
                 </div>
             </div>
 
-            <div className={style.imagem_grid}>
-                <div className={style.imagem_item}>
-                    <img src={image1} className={style.img} />
-                    <div className={style.image_content}>
-                        <button className={style.button__proj}>
-                            <a className={style.text} href='/Projetos'>
-                                Projetos
-                            </a>
-                        </button>
+                <div className={style.imagem_grid}>
+                    <div className={style.imagem_item}>
+                        <img src={image1} className={style.img} />
+                        <div className={style.image_content}>
+                            <button className={style.button__proj}>
+                                <a className={style.text} href='/Projetos'>
+                                    Projetos
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div className={style.imagem_item}>
+                        <img src={image2} className={style.img} />
+                        <div className={style.image_content}>
+                            <button className={style.buttonPaginaInicio}>
+                                <a className={style.text} href='/Certificados'>
+                                    Certificados
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div className={style.imagem_item}>
+                        <img src={image3} className={style.img} />
+                        <div className={style.image_content}>
+                            <button className={style.buttonPaginaInicio}>
+                                <a className={style.text} href='/SobreMim'>
+                                    Sobre Mim
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div className={style.imagem_item}>
-                    <img src={image2} className={style.img} />
-                    <div className={style.image_content}>
-                        <button className={style.buttonPaginaInicio}>
-                            <a className={style.text} href='/Certificados'>
-                                Certificados
-                            </a>
-                        </button>
-                    </div>
-                </div>
-                <div className={style.imagem_item}>
-                    <img src={image3} className={style.img} />
-                    <div className={style.image_content}>
-                        <button className={style.buttonPaginaInicio}>
-                            <a className={style.text} href='/SobreMim'>
-                                Sobre Mim
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </>
+            </>
     )
 }
