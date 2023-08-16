@@ -65,8 +65,10 @@ button:hover {
 .icons {
     position: absolute;
     right: 20px;
-    top: 12%;
+    top: 13%;
     display: flex;
+    background-size: auto;
+    z-index: 9999;
 }
 
 .git {
@@ -92,7 +94,6 @@ button:hover {
         right: 20px;
         top: 2%;
         display: flex;
-        opacity: 0;
     }
 
     .git {
@@ -136,9 +137,5 @@ button:hover {
 
     .img {
         gap: 10px;
-    }
-
-    .container {
-        height: 100%;
     }
 }
