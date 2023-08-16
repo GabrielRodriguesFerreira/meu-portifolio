@@ -138,4 +138,9 @@ button:hover {
     .img {
         gap: 10px;
     }
+
+    .box {
+        position: absolute;
+    }
+
 }

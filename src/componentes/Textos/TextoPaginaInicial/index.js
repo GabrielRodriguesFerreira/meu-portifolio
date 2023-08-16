@@ -26,7 +26,7 @@ export default function MinhaFoto() {
             <motion.div variants={list} initial="hidden" animate="show">
                 <img className={style.minhaFoto} src={minhaFoto} />
             </motion.div>
-            <motion.div animate={{x: 10}}>
+            <motion.div variants={list} initial="hidden" animate="show">
                 <h1 className={style.textos}>Meu portifólio</h1>
                 <h2 className={style.textos__h2}>
                     Meu nome é Gabriel Rodrigues e é um prazer ter você aqui.

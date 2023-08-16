@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import style from './paginaDeInicio.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { animate, motion, transform } from 'framer-motion'
+import Box from '../Box'
 
 import image1 from './FotosPaginaInicio/image-1.png'
 import image2 from './FotosPaginaInicio/image-2.png'
@@ -46,6 +47,9 @@ export default function PaginaDeInicio() {
                     </div>
                 </div>
 
+            </motion.div>
+
+            <Box className={style.box}>
                 <div className={style.imagem_grid}>
                     <div className={style.imagem_item}>
                         <img src={image1} className={style.img} />
@@ -78,7 +82,9 @@ export default function PaginaDeInicio() {
                         </div>
                     </div>
                 </div>
-            </motion.div>
+            </Box>
         </>
     )
 }
+
+

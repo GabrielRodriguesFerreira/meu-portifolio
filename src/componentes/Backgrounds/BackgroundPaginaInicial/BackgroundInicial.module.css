@@ -14,11 +14,11 @@
         background-image:
             linear-gradient(135deg, rgba(0, 58, 10, 0.7) 10%, rgba(0, 0, 0, 0.90) 100%, rgba(0, 0, 0, 0.1)),
             url('../../../assets/background/image-4.png');
-        width: 100%px;
+        width: 100%;
         height: 100rem;
         background-size: cover;
         visibility: 50%;
-        padding: 20rem;
+        padding: 20%;
     }
 }
 
